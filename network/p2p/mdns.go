@@ -30,3 +30,4 @@ func initMDNS(ctx context.Context, peerHost host.Host, rendezvous string) chan p
 	mdnsService.RegisterNotifee(dn)
 	return dn.PeerChan
 }
+
